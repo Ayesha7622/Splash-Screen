@@ -24,9 +24,10 @@ class _SplashScreenState extends State<SplashScreen> {
       backgroundColor: Colors.black,
       body: Center(
         child: Image(
+            height: 80,
             image: AssetImage(
-          'assets/whatsapp.png',
-        )),
+              'assets/whatsapp.png',
+            )),
       ),
     );
   }
